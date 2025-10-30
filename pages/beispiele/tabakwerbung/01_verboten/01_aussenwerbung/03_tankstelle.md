@@ -1,8 +1,8 @@
-# Verbotenes Werbeplakat neben Tankstelle
+# Verbotenes Werbeplakat auf Tankstellengelände
 
-Hier handelt es sich um eine Jet-Tankstelle in Ingolstadt. Rund um die Tankstelle sind Straßenverkehr und möglicherweise Geschäfte oder andere Einrichtungen zu sehen.
+Hier handelt es sich um das Gelände einer Jet-Tankstelle in Ingolstadt.
 
-Rechts im Bild ist auf dem Tankstellengelände ein verbotenes Werbeplakat für Vapes zu sehen.
+Auf dem Foto ist ein verbotenes Werbeplakat für Vapes und Werbung für die Zigarettenmarke Lucky Strike zu sehen.
 
 <ProRauchfreiLogo/>
 <SlideRefs/>

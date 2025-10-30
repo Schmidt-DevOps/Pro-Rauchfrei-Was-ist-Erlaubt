@@ -23,12 +23,14 @@ colorSchema: light
 hideInToc: true
 ---
 
-# Was darf Tabakwerbung?
+# Was darf Satire? Ziemlich viel.
+
+## Was darf Tabakwerbung? Nicht viel.
 
 Eine Übersicht des Vereins Pro Rauchfrei e.V.
 
 <div class="mute">
-Inhalt: Dipl.-Jur. Stephan Weinberger, Zusammenstellung: Barbara Soukup-Sterl, Produktion: Rene Schmidt
+Inhalt: Barbara Soukup-Sterl, Dipl.-Jur. Stephan Weinberger, Produktion: Rene Schmidt
 </div>
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
@@ -45,6 +47,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
 # Was macht Pro Rauchfrei e.V.?
@@ -66,13 +69,15 @@ transition: fade-out
 
 ---
 layout: two-cols
-layoutClass: gap-36
+layoutClass: gap-20
 hideInToc: true
 ---
 
-# Übersicht über die Präsentation
+# Zweck dieser Präsentation
 
-In dieser Präsentation stelle ich vor, welche Tabakwerbung erlaubt ist und welche nicht.
+ …ist zu klären, welche Werbeformen verboten sind, welche rechtlichen Grauzonen existieren und was es bei Sponsoring zu beachten gilt.
+
+Gezeigt werden auch konkrete Beispiele verbotener Werbung für Tabak- und Nikotinprodukte.
 
 ::right::
 
@@ -86,33 +91,13 @@ layout: image-right
 image: https://cover.sli.dev
 ---
 
-# Fragestellungen
-
-Wo ist das Tabakwerbeverbot geregelt, welche Produkte werden erfasst und welche Werbeformen sind untersagt? Ist Sponsoring auch gesetzlich reguliert?
-
-- Rechtliche Grundlagen  
-- Gegenstand des Verbots  
-- Verbotene Werbeformen  
-- Sponsoring-Regelungen  
-- Ausnahmen und Graubereiche  
-
-Die Präsentation soll diese Fragen beantworten.
-
-<ProRauchfreiLogo/>
-<SlideRefs/>
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
 # Rechtliche Grundlagen
 
 Gesetze und Richtlinien
 
-- **Tabakerzeugnisgesetz (TabakerzG)**: Paragraphen 19–21  
-- **EU-Tabak-Richtlinie (RL 2014/40/EU)**: Erwägungsgrund 43 (elektronische Zigaretten)  
-- **Bundesrecht und EU-Richtlinien**: Kombination aus nationalen und EU-Vorschriften  
+- <span v-click>**Tabakerzeugnisgesetz (TabakerzG)**: Paragraphen 19–21</span>
+- <span v-click>**EU-Tabak-Richtlinie (RL 2014/40/EU)**: Erwägungsgrund 43 (elektronische Zigaretten)</span>
+- <span v-click>**Bundesrecht und EU-Richtlinien**: Kombination aus nationalen und EU-Vorschriften</span>
 
 <ProRauchfreiLogo/>
 <SlideRefs/>
@@ -134,18 +119,19 @@ image: https://cover.sli.dev
 
 Welche Werbeformen sind untersagt?
 
-- **Hörfunk**  
-- **Presse/gedruckte Erzeugnisse** (außer bestimmte Ausnahmen)  
-- **Internet**  
-- **Audiovisuelle Kommunikation** (Fernsehwerbung, Sponsoring, Produktplatzierung)  
-- **Außenwerbung** (Plakate, Monitore)  
-- **Werbung zugunsten von Unternehmen** (Hersteller/Verkäufer)  
+- <span v-click>**Hörfunk**</span>
+- <span v-click>**Presse/gedruckte Erzeugnisse** (außer bestimmte Ausnahmen)</span>
+- <span v-click>**Internet**</span>
+- <span v-click>**Audiovisuelle Kommunikation** (Fernsehwerbung, Sponsoring, Produktplatzierung)</span>
+- <span v-click>**Außenwerbung** (Plakate, Bildschirme)</span>
+- <span v-click>**Werbung zugunsten von Unternehmen** (Hersteller/Verkäufer)</span>
 
 <ProRauchfreiLogo/>
 <SlideRefs/>
 
 <!--
 Verboten ist die Werbung
+
 - im Hörfunk
 - in der Presse oder in anderen gedruckten Erzeugnissen (außer die Veröffentlichungen richten sich ausschließlich an Mitarbeiter des Tabak- oder E-Zigarettenhandels oder sie wurden in einem Nicht-EU-Staat gedruckt und sind nicht hauptsächlich für den Markt in der EU bestimmt)
 - in Diensten der Informationsgesellschaft (Internet)
@@ -168,11 +154,11 @@ image: https://cover.sli.dev
 
 Wann ist Sponsoring verboten?
 
-- **Grenzüberschreitende Aktivitäten**:  
-  - Mehrere EU-Mitgliedstaaten beteiligt  
-  - Aktivitäten in mehreren EU-Ländern  
-  - Andere grenzüberschreitende Wirkung  
-- **Ausnahme**: Veranstaltungen in Deutschland allein  
+- <span v-click>**Grenzüberschreitende Aktivitäten**:</span>
+  - <span v-click>Mehrere EU-Mitgliedstaaten beteiligt</span>
+  - <span v-click>Aktivitäten in mehreren EU-Ländern</span>
+  - <span v-click>Andere grenzüberschreitende Wirkung</span>
+- <span v-click>**Ausnahme**: Veranstaltungen in Deutschland allein</span>
 
 <ProRauchfreiLogo/>
 <SlideRefs/>
@@ -195,14 +181,14 @@ image: https://cover.sli.dev
 
 # Ausnahmen und Graubereiche  
 
-Was ist erlaubt oder unklar?
+Was ist nicht verboten oder unklar?
 
-- **Innenraumwerbung**: Nicht verboten, außer bei speziellen Fällen  
-- **Tabakerhitzer**: Füllungen sind verboten, Geräte selbst nicht  
-- **Unklare Fälle**:  
-  - Werbung an Schaufenstern in Einkaufszentren  
-  - Werbung auf Abfallbehältern, Wurfzetteln, Fahrzeugen  
-  - Produkttests in sozialen Medien  
+- <span v-click>**Innenraumwerbung**: Nicht verboten, außer bei speziellen Fällen</span> 
+- <span v-click>**Tabakerhitzer**: Füllungen sind verboten, Geräte selbst nicht</span>
+- <span v-click>**Unklare Fälle**:</span>
+  - <span v-click>Werbung an Schaufenstern in Einkaufszentren</span>
+  - <span v-click>Werbung auf Abfallbehältern, Wurfzetteln, Fahrzeugen</span>
+  - <span v-click>Produkttests in sozialen Medien</span>
 
 <ProRauchfreiLogo/>
 <SlideRefs/>
@@ -228,6 +214,7 @@ Aufgrund mangelnder Umsetzung greifen die Tabakwerbeverbote daher kaum: Statt mi
 -->
 ---
 layout: center
+hideInToc: true
 ---
 
 # Beispiele für nicht verbotene Werbung  
@@ -240,7 +227,7 @@ Nicht alle Werbeformen für Tabak- und Nikotinprodukte sind verboten.
 ---
 src: ./pages/beispiele/tabakwerbung/03_nicht_verboten/01_innenraeume.md
 layout: image-left
-image: img/beispiele/tabakwerbung/03_nicht_verboten/01_Tabakpräsentation-und-werbung-in-Edeka-Ebersberg.jpg
+image: img/beispiele/tabakwerbung/03_nicht_verboten/01_Tabakpräsentation-und-werbung-in-Edeka-Ebersberg_bearbeitet.webp
 level: 2
 hideInToc: true
 ---
@@ -259,7 +246,7 @@ Graubereiche bei der Werbung für Tabak- und Nikotonprodukte bleiben zunächst o
 ---
 src: ./pages/beispiele/tabakwerbung/02_ungeklärt/01_sonnenschirme.md
 layout: image-left
-image: img/beispiele/tabakwerbung/02_ungeklärt/01_Köln-Sonnenschirm-Gauloises.jpg
+image: img/beispiele/tabakwerbung/02_ungeklärt/01_Köln-Sonnenschirm-Gauloises_klein.jpg
 level: 2
 hideInToc: true
 ---
@@ -267,7 +254,7 @@ hideInToc: true
 ---
 src: ./pages/beispiele/tabakwerbung/02_ungeklärt/02_abfallbehälter.md
 layout: image-right
-image: img/beispiele/tabakwerbung/02_ungeklärt/02_2024-20-07_Werbung-auf-Abfallbehälter-Stuttgart.jpg
+image: img/beispiele/tabakwerbung/02_ungeklärt/02_2024-20-07_Werbung-auf-Abfallbehälter-Stuttgart_klein.jpg
 level: 2
 hideInToc: true
 ---
@@ -304,7 +291,7 @@ Es folgen konkrete Beispiele für verbotene Tabak- und Nikotin-**Außenwerbung**
 src: ./pages/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/01_digitaldisplay.md
 hide: false
 layout: image-left
-image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/01_Veni1_beschnitten.JPG
+image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/01_Veni1_beschnitten.webp
 level: 2
 hideInToc: true
 ---
@@ -312,7 +299,7 @@ hideInToc: true
 ---
 src: ./pages/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/02_schaufensterplakat.md
 layout: image-right
-image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/02_LycaMobil_Elbar-Plakat_beschnitten.jpg
+image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/02_LycaMobil_Elbar-Plakat_beschnitten.webp
 level: 2
 hideInToc: true
 ---
@@ -328,7 +315,7 @@ hideInToc: true
 ---
 src: ./pages/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/04_tuerdisplay_krailing.md
 layout: image-right
-image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/04_Türwerbung-Tankstelle-Krailling_beschnitten.jpg
+image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/04_Türwerbung-Tankstelle-Krailling_beschnitten.webp
 level: 2
 hideInToc: true
 ---
@@ -336,7 +323,7 @@ hideInToc: true
 ---
 src: ./pages/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/05_tankstelle_erfurt.md
 layout: image-left
-image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/05_2024-08-31_Tankstelle-Erfurt_Türdisplay4_beschnitten.jpg
+image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/05_2024-08-31_Tankstelle-Erfurt_Türdisplay4_beschnitten.webp
 level: 2
 hideInToc: true
 ---
@@ -344,7 +331,7 @@ hideInToc: true
 ---
 src: ./pages/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/06_digitale_city_lights.md
 layout: image-right
-image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/06_Tabak-Ploom-Düsseldorf_bearbeitet.jpg
+image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/06_Tabak-Ploom-Düsseldorf_bearbeitet.webp
 level: 2
 hideInToc: true
 ---
@@ -352,7 +339,7 @@ hideInToc: true
 ---
 src: ./pages/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/07_digitaldisplay_tankstellenshop.md
 layout: image-left
-image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/07_Mühldorf_VuseGo_bearbeitet.JPG
+image: img/beispiele/tabakwerbung/01_verboten/01_aussenwerbung/07_Mühldorf_VuseGo_bearbeitet.webp
 level: 2
 hideInToc: true
 ---
