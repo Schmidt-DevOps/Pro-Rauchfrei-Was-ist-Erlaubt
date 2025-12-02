@@ -48,7 +48,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        working-directory: ./Pro-Rauchfrei-Slidev-Thema
+        working-directory: ./Pro-Rauchfrei-Slidev-Theme
         run: pnpm install
 
       - name: Install dependencies
