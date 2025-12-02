@@ -48,6 +48,10 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
+        working-directory: ./Pro-Rauchfrei-Slidev-Thema
+        run: pnpm install
+
+      - name: Install dependencies
         working-directory: ./2025-12-01-Tabakwerbung
         run: pnpm install
 
