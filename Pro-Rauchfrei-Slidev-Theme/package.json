@@ -1,0 +1,38 @@
+{
+  "name": "Pro-Rauchfrei-Slidev-Theme",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pro-Rauchfrei Theme based on Default theme by antfu",
+  "author": "Rene Schmidt <rene@sdo.sh>",
+  "license": "MIT",
+  "funding": "https://pro-rauchfrei.de/",
+  "homepage": "https://pro-rauchfrei.de/",
+  "repository": {
+    "type": "git",
+    "url": "https://example.com"
+  },
+  "bugs": "https://pro-rauchfrei.de/",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=25.0.0",
+    "slidev": ">=v0.47.0"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "mono": "Fira Code",
+        "sans": "Avenir Next,Nunito Sans",
+        "local": "Avenir Next"
+      }
+    }
+  },
+  "dependencies": {
+    "@slidev/types": "^0.47.0",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4"
+  }
+}
