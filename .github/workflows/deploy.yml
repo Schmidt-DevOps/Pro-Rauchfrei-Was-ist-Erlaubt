@@ -51,7 +51,7 @@ jobs:
         run: pnpm install
 
       - name: Build slides
-        run: pnpm build
+        run: pnpm build --base ${{ steps.deployment.outputs.page_url }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
